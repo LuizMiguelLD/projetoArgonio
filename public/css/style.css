@@ -72,7 +72,7 @@ a {
     margin-top: 50px;
 }
 
-.secaoDev {
+.secaoFonte {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +83,33 @@ a {
     border-radius: 10px;
     margin-bottom: 50px;
     width: 60%;
+    padding: 50px;
+}
+
+.secaoFonte h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.secaoFonte a {
+    font-size: 20px;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.secaoDev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7e008f36;
+    box-shadow: 3px 3px 3px rgba(161, 0, 175, 0.37);
+    border: 1px solid rgba(234, 0, 255, 0.432);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 80%;
 }
 
 .secaoTexto {
@@ -112,8 +139,8 @@ a {
 
 .imagemLuiz {
     margin-top: 10px;
-    width: 25%;
-    height: 110px;
+    width: 20%;
+    height: 130px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px rgb(234, 0, 255)
 }
@@ -125,7 +152,7 @@ a {
 }
 
 .professor {
-    width: 40%;
+    width: 30%;
 }
 
 .professor img {
@@ -253,6 +280,34 @@ a {
         height: 100%; 
         margin-top: 50px;
         margin-bottom: 50px; 
+    }
+
+    .secaoFonte {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #7e008f36;
+        box-shadow: 3px 3px 3px rgba(161, 0, 175, 0.37);
+        border: 1px solid rgba(234, 0, 255, 0.432);
+        border-radius: 10px;
+        margin-bottom: 50px;
+        width: 80%;
+        max-width: 900px;
+        padding: 50px;
+    }
+
+    .secaoFonte h2 {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 30px;
+        align-self: flex-start;
+    }
+
+    .secaoFonte a {
+        font-size: 28px;
+        align-self: flex-start;
+        margin: 0;
     }
 
     .dev {
